@@ -1,0 +1,31 @@
+{
+	"status": 0,
+	"msg": "ok",
+	"data": [{
+			"id": 1,
+			"name": "微信小程序",
+			"icon": "&#xe6b8;",
+			"url": "",
+			"children": [
+					{
+						"id": 2,
+						"name": "单选题",
+						"icon": "",
+						"url": "./pages/wxSmoll/radio.html"
+					},
+					{
+						"id": 3,
+						"name": "多选题",
+						"icon": "",
+						"url": "./pages/wxSmoll/checkbox.html"
+					},
+					{
+						"id": 4,
+						"name": "判断题",
+						"icon": "",
+						"url": "./pages/wxSmoll/judge.html"
+					}
+				]
+			}]
+	
+}

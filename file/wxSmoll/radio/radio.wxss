@@ -1,0 +1,90 @@
+/* components/ysy/radio/radio.wxss */
+.weui-cells,weui-cell {
+  position:static;
+}
+.weui-cells_after-title {
+  margin-top:0;
+
+}
+.weui-cells {
+  position:relative;
+  margin-top:1.17647059em;
+  background-color:#fff;
+  line-height:1.41176471;
+  font-size:17px;
+}
+.weui-cell {
+  padding:10px 15px;
+  position:relative;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  align-items:center;
+}
+
+.weui-check {
+position:absolute;
+left:-9999px;
+}
+radio {
+-webkit-tap-highlight-color:transparent;
+display:inline-block;
+
+}
+
+.weui-cell__ft_in-radio {
+padding-left:.35em;
+
+}
+.weui-cell__ft {
+text-align:right;
+color:#999;
+
+}
+.weui-icon-checkbox_circle,.weui-icon-checkbox_success {
+margin-left:4.6px;
+margin-right:4.6px;
+
+}
+icon {
+vertical-align:middle;
+display:inline-block;
+font-size:0;
+}
+
+.weui-cell__bd {
+-webkit-box-flex:1;
+-webkit-flex:1;
+flex:1;
+
+}
+.weui-cell::after{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  border-bottom:1px solid #ddd; 
+  display: block;
+  width: 100%
+}
+
+.othser{background-color: #fff;overflow: hidden;}
+.quest{height: auto;overflow: hidden}
+.weui-cells,weui-cell{position: static}
+.mt10{margin-top: 10px}
+
+.weui-cell__ft{width: 34px;float: left}
+.weui-cell{display: static}
+.label{display: block}
+.weui-cell1{
+  padding:10px 15px;
+  position:static;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  align-items:center;
+
+}
